@@ -1,16 +1,13 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# vim: fenc=utf-8
-# vim: tabstop=4 expandtab shiftwidth=4 softtabstop=4
-#
-#
+
 
 """
 File name: setup.py
 Version: 0.1
-Author: dhilipsiva <dhilipsiva@gmail.com>
-A helpful decorator for choice fields (Django choices or SQLAlchemy ChoiceType)
+Author: Priyanshu Jain <priyanshu@pm.me>
+Helpful decorators + utils for choice fields for finance related terms like currency pair, fx transaction types etc.
 """
 
 from setuptools import setup, find_packages
@@ -20,19 +17,18 @@ here = path.abspath(path.dirname(__file__))
 f = path.join(here, 'README.md')
 
 long_description = """
-A helpful decorator for choice field (Django choices or SQLAlchemy ChoiceType).
-Do choices the pythonic way.
+Helpful decorators + utils for choice fields for finance related terms like currency pair, fx transaction types etc.
 """
 setup(
-    name='orm-choices',
+    name='fin-choices-utils',
     version='1.0.1',
     description=(
         "A helpful decorator for choice fields"
         " (Django choices or SQLAlchemy ChoiceType)"),
     long_description=long_description,
-    url='https://github.com/dhilipsiva/orm-choices',
-    author='dhilipsiva',
-    author_email='dhilipsiva@gmail.com',
+    url='https://github.com/spotlight-co/fin-choices-utils',
+    author='Priyanshu Jain',
+    author_email='priyanshu@pm.me',
     license='MIT',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
