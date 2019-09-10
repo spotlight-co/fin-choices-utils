@@ -20,13 +20,13 @@ long_description = """
 Helpful decorators + utils for choice fields for finance related terms like currency pair, fx transaction types etc.
 """
 setup(
-    name='fin-choices-utils',
+    name='fin_choices_utils',
     version='1.0.2',
     description=(
         "A helpful decorator for choice fields"
         " (Django choices or SQLAlchemy ChoiceType)"),
     long_description=long_description,
-    url='https://github.com/spotlight-co/fin-choices-utils',
+    url='https://github.com/spotlight-co/fin_choices_utils',
     author='Priyanshu Jain',
     author_email='priyanshu@pm.me',
     license='MIT',
