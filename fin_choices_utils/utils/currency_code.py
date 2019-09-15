@@ -191,3 +191,5 @@ class CurrencyCode:
         XPD = [184, 'Palladium Ounce']
         XPT = [185, 'Platinum Ounce']
         ZMW = [186, 'Zambian Kwacha']
+        VES = [187, 'Venezuela Bolivar']
+        
