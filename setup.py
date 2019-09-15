@@ -5,7 +5,7 @@
 
 """
 File name: setup.py
-Version: 1.0.0
+Version: 1.0.4
 Author: Priyanshu Jain <priyanshu@pm.me>
 Helpful decorators + utils for choice fields for finance related terms like currency pair, fx transaction types etc.
 """
@@ -21,7 +21,7 @@ Helpful decorators + utils for choice fields for finance related terms like curr
 """
 setup(
     name='fin_choices_utils',
-    version='1.0.0',
+    version='1.0.4',
     description=(
         "A helpful decorator for choice fields"
         " (Django choices or SQLAlchemy ChoiceType)"),
